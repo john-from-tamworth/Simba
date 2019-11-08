@@ -1,0 +1,130 @@
+body {
+  font-family: poppins;
+  background: linear-gradient(228deg, #3f3f3f, #6d6a72);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+
+#brand {
+  width: 30px;
+  height: 30px;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+}
+
+#navText a {
+  color: white;
+  font-family: poppins;
+  font-size: 2rem;
+  margin-top: -40px;
+}
+
+/*body {
+        font-family: poppins;
+        background: linear-gradient(228deg, #3f3f3f, #6d6a72);
+        background-size: 400% 400%;
+        -webkit-animation: AnimationName 7s ease infinite;
+        -moz-animation: AnimationName 7s ease infinite;
+        animation: AnimationName 7s ease infinite;
+  }*/
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated {
+  transform: translate(-1%);
+  text-shadow: 0 0 35px white;
+  color: white;
+  padding-top: 70px;
+  font-family: poppins;
+}
+
+#logo {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  animation: fill 3s ease forwards 4.5s;
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 786.734;
+  stroke-dashoffset: 786.734;
+  animation: line-anim 4s ease forwards;
+}
+#logo path:nth-child(2) {
+  stroke-dasharray: 362.307;
+  stroke-dashoffset: 362.307;
+  animation: line-anim 4s ease forwards 0.3s;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 1204.95;
+  stroke-dashoffset: 1204.95;
+  animation: line-anim 4s ease forwards 0.6s;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 972.413;
+  stroke-dashoffset: 972.413;
+  animation: line-anim 4s ease forwards 0.9s;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 781.918;
+  stroke-dashoffset: 781.918;
+  animation: line-anim 4s ease forwards 1.2s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+.carousel-inner {
+  height: auto;
+  width: 600px;
+  margin: auto;
+}
