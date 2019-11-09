@@ -128,3 +128,15 @@ body {
   width: 600px;
   margin: auto;
 }
+
+.card-body {
+  background: rgb(156, 155, 155);
+  background: linear-gradient(
+    180deg,
+    rgba(156, 155, 155, 1) 0%,
+    rgba(224, 224, 224, 1) 100%
+  );
+}
+.card-img {
+  background-color: rgb(156, 155, 155);
+}
