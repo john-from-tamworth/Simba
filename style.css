@@ -17,13 +17,13 @@ body {
   height: 150px;
 }
 
-#navText a {
+.courses {
   color: white;
-  font-family: poppins;
-  font-size: 2rem;
-  margin-top: -40px;
 }
 
+.carousel-imgs {
+  color: white;
+}
 /*body {
         font-family: poppins;
         background: linear-gradient(228deg, #3f3f3f, #6d6a72);
@@ -123,12 +123,9 @@ body {
   }
 }
 
-.carousel-inner {
-  height: auto;
-  width: 600px;
-  margin: auto;
+.carousel-item {
+  text-align: center;
 }
-
 .card-body {
   background: rgb(156, 155, 155);
   background: linear-gradient(
@@ -136,7 +133,4 @@ body {
     rgba(156, 155, 155, 1) 0%,
     rgba(224, 224, 224, 1) 100%
   );
-}
-.card-img {
-  background-color: rgb(156, 155, 155);
 }
