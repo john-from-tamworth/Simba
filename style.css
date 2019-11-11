@@ -1,10 +1,16 @@
 body {
   font-family: poppins;
-  background: linear-gradient(228deg, #3f3f3f, #6d6a72);
+  /* background: linear-gradient(228deg, #3f3f3f, #6d6a72);*/
+  background: rgb(24, 42, 60);
+  background: linear-gradient(
+    103deg,
+    rgba(24, 42, 60, 1) 0%,
+    rgba(73, 73, 73, 1) 100%
+  );
   background-size: 400% 400%;
-  -webkit-animation: AnimationName 7s ease infinite;
+  /*-webkit-animation: AnimationName 7s ease infinite;
   -moz-animation: AnimationName 7s ease infinite;
-  animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;*/
 }
 
 #brand {
@@ -127,10 +133,19 @@ body {
   text-align: center;
 }
 .card-body {
+  color: rgba(24, 42, 60, 1);
   background: rgb(156, 155, 155);
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(156, 155, 155, 1) 0%,
     rgba(224, 224, 224, 1) 100%
-  );
+  );*/
+}
+
+#courses img {
+  margin-top: -80px;
+}
+
+.card-body {
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
