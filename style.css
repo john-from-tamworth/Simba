@@ -134,7 +134,9 @@ body {
 }
 .card-body {
   color: rgba(24, 42, 60, 1);
-  background: rgb(156, 155, 155);
+  font-weight: bold;
+  /*background: rgb(156, 155, 155);*/
+  background: white;
   /* background: linear-gradient(
     180deg,
     rgba(156, 155, 155, 1) 0%,
@@ -147,5 +149,6 @@ body {
 }
 
 .card-body {
-  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  /*box-shadow: 5px 5px 15px rgb(0, 0, 0);*/
+  box-shadow: 10px 10px 25px rgb(0, 0, 0);
 }
